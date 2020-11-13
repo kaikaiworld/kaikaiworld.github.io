@@ -181,7 +181,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: Noto Sans SC, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: EB Garamond, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
   min-height: 100%;
@@ -194,7 +194,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Noto Sans SC, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: EB Garamond, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -1216,7 +1216,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Noto Sans SC, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: EB Garamond, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   margin: 0;
@@ -1775,16 +1775,6 @@ pre code {
   margin-top: 40px;
   text-align: center;
 }
-.post-body p a {
-  color: #555;
-  border-bottom: none;
-  border-bottom: 1px solid #999;
-}
-.post-body p a:hover {
-  color: #fc6423;
-  border-bottom: none;
-  border-bottom: 1px solid #fc6423;
-}
 .use-motion .post-block,
 .use-motion .pagination,
 .use-motion .comments {
@@ -1903,7 +1893,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Noto Sans SC, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Noto Serif SC, EB Garamond, "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2096,7 +2086,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Noto Sans SC, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Noto Serif SC, EB Garamond, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -2918,4 +2908,17 @@ mark.search-keyword {
   .comments {
     padding: 10px 12px;
   }
+}
+.post-body p a {
+  color: #555;
+  border-bottom: none;
+  border-bottom: 1px solid #999;
+}
+.post-body p a:hover {
+  color: #fc6423;
+  border-bottom: none;
+  border-bottom: 1px solid #fc6423;
+}
+. {
+  font-weight: 500 !important;
 }

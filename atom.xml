@@ -6,7 +6,7 @@
   <link href="http://hexo.kaikai.world/atom.xml" rel="self"/>
   
   <link href="http://hexo.kaikai.world/"/>
-  <updated>2020-11-13T15:39:45.601Z</updated>
+  <updated>2020-11-13T15:55:38.836Z</updated>
   <id>http://hexo.kaikai.world/</id>
   
   <author>
@@ -17,15 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://hexo.kaikai.world/posts/0/"/>
-    <id>http://hexo.kaikai.world/posts/0/</id>
-    <published>1970-01-01T00:00:00.000Z</published>
-    <updated>2020-11-13T15:39:45.601Z</updated>
+    <title>《Dive Into Python 3》翻译</title>
+    <link href="http://hexo.kaikai.world/posts/b34078e3/"/>
+    <id>http://hexo.kaikai.world/posts/b34078e3/</id>
+    <published>2018-03-19T00:00:00.000Z</published>
+    <updated>2020-11-13T15:55:38.836Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;负一章-深入-Python-3-中有什么新内容&quot;&gt;&lt;a href=&quot;#负一章-深入-Python-3-中有什么新内容&quot; class=&quot;headerlink&quot; title=&quot;负一章 - 深入 Python 3 中有什么新内容&quot;&gt;&lt;/a&gt;负一章 - 深入 Python 3 中有什么新内容&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;“这不正是我们进来的地方吗”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;- Pink · Floyd, The Wall&lt;/em&gt;&lt;/p&gt;</summary>
     
     
     
     
+    <category term="Python 之路" scheme="http://hexo.kaikai.world/tags/Python-%E4%B9%8B%E8%B7%AF/"/>
     
   </entry>
   

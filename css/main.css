@@ -2937,3 +2937,6 @@ mark.search-keyword {
   border-bottom: none;
   border-bottom: 1px solid #fc6423;
 }
+.post-body {
+  color: #333;
+}

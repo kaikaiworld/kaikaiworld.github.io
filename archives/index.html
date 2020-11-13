@@ -418,16 +418,6 @@ document.addEventListener('pjax:success', () => {
   
 
   
-  <script src="//cdnjs.cloudflare.com/ajax/libs/quicklink/2.0.0/quicklink.umd.js"></script>
-  <script>
-      window.addEventListener('load', () => {
-      quicklink.listen({
-        timeout : 3000,
-        priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri === 'http://hexo.kaikai.world/archives/',]
-      });
-      });
-  </script>
 
     </div>
 </body>

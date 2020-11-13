@@ -6,7 +6,8 @@
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 5.2.0">
 
-
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.webp">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.webp">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.webp">
@@ -486,7 +487,7 @@ document.addEventListener('pjax:success', () => {
       quicklink.listen({
         timeout : 3000,
         priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri === 'http://hexo.kaikai.world/',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'http://hexo.kaikai.world/',(atom.xml)]
       });
       });
   </script>

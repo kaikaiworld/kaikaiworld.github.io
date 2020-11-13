@@ -181,7 +181,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: Microsoft YaHei, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Noto Sans SC, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
   min-height: 100%;
@@ -194,7 +194,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Microsoft YaHei, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Noto Sans SC, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -1189,7 +1189,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Microsoft YaHei, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Noto Sans SC, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   margin: 0;
@@ -1616,6 +1616,7 @@ pre code {
   color: #ff0000;
   display: inline-block;
   margin: 0 5px;
+  animation: icon-animate 1.33s ease-in-out infinite;
 }
 @-moz-keyframes icon-animate {
   0%, 100% {
@@ -1864,7 +1865,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Microsoft YaHei, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Noto Sans SC, "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2057,7 +2058,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Microsoft YaHei, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Noto Sans SC, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }

@@ -6,7 +6,7 @@
   <link href="http://hexo.kaikai.world/atom.xml" rel="self"/>
   
   <link href="http://hexo.kaikai.world/"/>
-  <updated>2020-11-14T00:47:30.973Z</updated>
+  <updated>2020-11-14T01:34:44.065Z</updated>
   <id>http://hexo.kaikai.world/</id>
   
   <author>
@@ -17,15 +17,53 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Dive Into Python 3 翻译 - 负一章</title>
-    <link href="http://hexo.kaikai.world/posts/dive-into-python-fan-yi-fu-yi-zhang/"/>
-    <id>http://hexo.kaikai.world/posts/dive-into-python-fan-yi-fu-yi-zhang/</id>
+    <title>Dive Into Python 3 翻译 第一章</title>
+    <link href="http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-di-yi-zhang/"/>
+    <id>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-di-yi-zhang/</id>
+    <published>2018-04-15T00:00:00.000Z</published>
+    <updated>2020-11-14T01:34:44.065Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;第一章-你的第一个-Python-程序&quot;&gt;&lt;a href=&quot;#第一章-你的第一个-Python-程序&quot; class=&quot;headerlink&quot; title=&quot;第一章 - 你的第一个 Python 程序&quot;&gt;&lt;/a&gt;第一章 - 你的第一个 Python 程序&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;“不要把你的负担埋葬在圣寂中。你有难题吗？很好。欢呼吧，然后深入进去，开始调查。”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;- Ven. Henepola Gunaratana&lt;/em&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Python 之路" scheme="http://hexo.kaikai.world/tags/Python-%E4%B9%8B%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dive Into Python 3 翻译 第零章</title>
+    <link href="http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-di-ling-zhang/"/>
+    <id>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-di-ling-zhang/</id>
+    <published>2018-03-22T00:00:00.000Z</published>
+    <updated>2020-11-14T01:25:11.524Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;第零章-Python-的安装&quot;&gt;&lt;a href=&quot;#第零章-Python-的安装&quot; class=&quot;headerlink&quot; title=&quot;第零章 - Python 的安装&quot;&gt;&lt;/a&gt;第零章 - Python 的安装&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;“时间在变化，我们也随之变化。”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;- 古罗马谚语&lt;/em&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Python 之路" scheme="http://hexo.kaikai.world/tags/Python-%E4%B9%8B%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dive Into Python 3 翻译 负一章</title>
+    <link href="http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-fu-yi-zhang/"/>
+    <id>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-fu-yi-zhang/</id>
     <published>2018-03-19T00:00:00.000Z</published>
-    <updated>2020-11-14T00:47:30.973Z</updated>
+    <updated>2020-11-14T01:25:14.896Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;负一章-深入-Python-3-中有什么新内容&quot;&gt;&lt;a href=&quot;#负一章-深入-Python-3-中有什么新内容&quot; class=&quot;headerlink&quot; title=&quot;负一章 - 深入 Python 3 中有什么新内容&quot;&gt;&lt;/a&gt;负一章 - 深入 Python 3 中有什么新内容&lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;“这不正是我们进来的地方吗”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“这不正是我们进来的地方吗？”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;- Pink · Floyd, The Wall&lt;/em&gt;&lt;/p&gt;</summary>
     
     

@@ -55,23 +55,6 @@
   </entry>
   
   <entry>
-    <title>Dive Into Python 3 翻译 目录</title>
-    <link href="http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-mu-lu/"/>
-    <id>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-mu-lu/</id>
-    <published>2018-03-19T00:00:00.000Z</published>
-    <updated>2020-11-14T02:40:26.619Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;这段时间在自学 Python 3，在网上找了 Dive Into Python 3 的中文版来看，读起来都觉得怪怪的，索性找来英文原版。边看边自己翻译，发在这留个记录吧。&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="Python 之路" scheme="http://hexo.kaikai.world/tags/Python-%E4%B9%8B%E8%B7%AF/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Dive Into Python 3 翻译 负一章</title>
     <link href="http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-fu-yi-zhang/"/>
     <id>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-fu-yi-zhang/</id>
@@ -82,6 +65,23 @@
     <summary type="html">&lt;h2 id=&quot;负一章-深入-Python-3-中有什么新内容&quot;&gt;&lt;a href=&quot;#负一章-深入-Python-3-中有什么新内容&quot; class=&quot;headerlink&quot; title=&quot;负一章 - 深入 Python 3 中有什么新内容&quot;&gt;&lt;/a&gt;负一章 - 深入 Python 3 中有什么新内容&lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;&lt;em&gt;“这不正是我们进来的地方吗？”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;- Pink · Floyd, The Wall&lt;/em&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Python 之路" scheme="http://hexo.kaikai.world/tags/Python-%E4%B9%8B%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dive Into Python 3 翻译 目录</title>
+    <link href="http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-mu-lu/"/>
+    <id>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-mu-lu/</id>
+    <published>2018-03-18T00:00:00.000Z</published>
+    <updated>2020-11-14T02:45:19.512Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这段时间在自学 Python 3，在网上找了 Dive Into Python 3 的中文版来看，读起来都觉得怪怪的，索性找来英文原版。边看边自己翻译，发在这留个记录吧。&lt;/p&gt;</summary>
     
     
     

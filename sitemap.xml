@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-mu-lu/</loc>
+    
+    <lastmod>2020-11-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-di-yi-zhang/</loc>
     
     <lastmod>2020-11-14</lastmod>

@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Dive Into Python 3 翻译 目录</title>
+    <url>/posts/dive-into-python-3-fan-yi-mu-lu/</url>
+    <content><![CDATA[<p>这段时间在自学 Python 3，在网上找了 Dive Into Python 3 的中文版来看，读起来都觉得怪怪的，索性找来英文原版。边看边自己翻译，发在这留个记录吧。</p>
+<a id="more"></a>
+
+<p><a href="https://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-fu-yi-zhang/">#-1《深入 Python 3 中有什么新内容》</a></p>
+<p><a href="https://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-di-ling-zhang/">#0  《Python 的安装》</a></p>
+<p><a href="https://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-di-yi-zhang/">#1  《你的第一个 Python 程序》</a></p>
+<p>TBD</p>
+]]></content>
+      <tags>
+        <tag>Python 之路</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Dive Into Python 3 翻译 第零章</title>
     <url>/posts/dive-into-python-3-fan-yi-di-ling-zhang/</url>
     <content><![CDATA[<h3 id="第零章-Python-的安装"><a href="#第零章-Python-的安装" class="headerlink" title="第零章 - Python 的安装"></a>第零章 - Python 的安装</h3><hr>

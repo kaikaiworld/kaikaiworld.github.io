@@ -2938,7 +2938,7 @@ mark.search-keyword {
   border-bottom: 1px solid #fc6423;
 }
 .post-meta-item-text {
-  font-family: EB Garamond, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: EB Garamond, Noto Serif SC, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .post-body p {
   color: #333;

@@ -16,40 +16,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Dive Into Python 3 翻译 负一章</title>
-    <url>/posts/dive-into-python-3-fan-yi-fu-yi-zhang/</url>
-    <content><![CDATA[<h2 id="负一章-深入-Python-3-中有什么新内容"><a href="#负一章-深入-Python-3-中有什么新内容" class="headerlink" title="负一章 - 深入 Python 3 中有什么新内容"></a>负一章 - 深入 Python 3 中有什么新内容</h2><hr>
-<p><em>“这不正是我们进来的地方吗？”</em></p>
-<p><em>- Pink · Floyd, The Wall</em></p>
-<a id="more"></a>
-
-
-<h4 id="1-1-又被称为-“THE-MINUS-LEVEL”"><a href="#1-1-又被称为-“THE-MINUS-LEVEL”" class="headerlink" title="-1.1 又被称为 “THE MINUS LEVEL”"></a>-1.1 又被称为 “THE MINUS LEVEL”</h4><p>你已经是一个 Python 程序员了吗？你读过原版的 《<a href="http://diveintopython.org/">深入 Python</a>》了吗？你买纸质书了吗？（如果买了，谢谢你！）你准备好冒险进入 Python 3 了吗？如果都做到了，请接着读。（如果没有，你最好从头开始）</p>
-<p>伴随着 Python 3 一起来的还有一个被叫做 2to3 的脚本。学习它，爱上它，使用它。《用 2to3 移植代码到 Python 3》是一个 2to3 工具可以自动修复的所有事情的参考书。由于许多改变都是语法上的，所以先了解这些在 Python 3 中的语法变化真的是一个好的开始。</p>
-<p>案例学习：” 把 Chardet 移植到 Python 3 “ 记录了在我的努力下（最终成功了）把一个不平常的库从 Python 2 移植到 Python 3。它可能对你有帮助，也可能没有。由于你需要先理解这个库，才能理解它为什么中断了和我怎么修复了它，因此这个学习曲线是相当陡峭。许多损坏都围绕着 Strings，说起这个…</p>
-<p>Strings，吁，从哪说起呢，Python 2 有 “Strings” 和 “Unicode (统一码) Strings”。Python 3 中有 “Bytes” 和 “Strings”。这就是说，现在所有的 Strings 都是 Unicode Strings ，而且如果你想要处理一堆 bytes，你可以使用新的 bytes 类型，Python 3 永远不会在 Strings 和 bytes 之间进行隐式转换，所以如果你不确定在哪些时候使用哪种类型，你的代码肯定会中断。想要了解更多的细节可以阅读 the Strings Chapter。</p>
-<p>在这本书中，Bytes 和 Strings 的比较将会反复出现。</p>
-<ul>
-<li><p>  在《文件》(Files) 中，你会学习” 二进制” 和” 文本” 这两种读取文件的模式之间的不同之处，以文本模式读取（写入也是！）文件要求一个 encoding 参数，一些文本文件的方法按照字符计数，但是其他的方法却按照字节计数。如果你的代码中假定一个字符等于一个字节，当遇到多字节字符的时候就会中断。</p>
-</li>
-<li><p>  在《HTTP 网页服务》(HTTP Web Services) 中，httplib 2 模块通过 HTTP 接受 headers 和 data。HTTP headers 以 strings 类型返回，而 HTTP body 以 bytes 类型返回。</p>
-</li>
-<li><p>  在《可序列化 Python 类》(Serializing Python Objects) 中，你将会学习到为什么 pickle 模块这个在 Python 3 中定义的新的数据格式会不与 Python 2 向后兼容（提示：因为 bytes 和 strings）。此外，Python 3 还支持可序列化类与 JSON 之间相互转换，尽管 JSON 都不是 bytes 类型。我将会给你展示这是怎么做到的。</p>
-</li>
-<li><p>在案例学习：把 chardet 移植到 Python 3 中，到处都是 bytes 和 strings。</p>
-<p>即使你不关心 Unicode（但是你会关心的），你也会想读读 Python 3 中的字符串格式 (string formatting in Python 3)，它和 Python 2 中的完全不同。</p>
-<p>在 Python 3 中到处都是迭代器 (Iterators)，我现在比五年前写《深入 Python》的时候能更好的理解它们了，你也要理解它们，因为很多之前在 Python 2 中返回列表 (lists) 的函数，现在变成返回迭代器了。你最少也得读一读迭代器这章的后半部分和高级迭代器这章的后半部分。</p>
-</li>
-</ul>
-<p>应广大程序猿的要求，我已经在附录上增加了《特殊方法名称》这一部分，这有点像 <a href="http://www.python.org/doc/3.1/reference/datamodel.html#special-method-names">Python 文档的《数据模型 (data model) 》</a>这章，但是更加鬼魅。</p>
-<p> 当我写《深入 Python》的时候，所有能获取到的 XML 库都有问题。后来 Fredrik Lundh 编写了 <a href="http://effbot.org/zone/element-index.htm">ElementTree</a> ，这些就都变好了。Python 领域的偶像们很明智地 <a href="http://docs.python.org/3.1/library/xml.etree.elementtree.html">把 ElementTree 纳入到标准库中</a> ，现在也形成了我新写的 XML 那章的基础。老的对 XML 进行解析的方法仍然能用，但是你最好别用，因为它们真的都很糟糕。</p>
-<p> 在 Python 中另外的新东西，不在语言而在社区，出现了像 <a href="http://pypi.python.org/">Python 软件包大全 (The Python Package Index, PyPI)</a> 这样的代码仓库， Python 带来了把你的代码用标准格式打包然后发行到 PyPI 上的实用工具。想要了解细节请阅读打包 Python 库 (Packaging Python Libraries) 这一章。</p>
-]]></content>
-      <tags>
-        <tag>Python 之路</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Dive Into Python 3 翻译 第零章</title>
     <url>/posts/dive-into-python-3-fan-yi-di-ling-zhang/</url>
     <content><![CDATA[<h3 id="第零章-Python-的安装"><a href="#第零章-Python-的安装" class="headerlink" title="第零章 - Python 的安装"></a>第零章 - Python 的安装</h3><hr>
@@ -108,6 +74,66 @@
 <p>你可能还想要看看 <a href="http://wiki.python.org/moin/IntegratedDevelopmentEnvironments">Python 相关的集成开发环境的清单</a> ，虽然他们中支持 Python 3 的不多。其中一个就是 <a href="http://pydev.sourceforge.net/">PyDev</a> ，一个能使 Eclipse 变成全功能 Python 集成开发环境的 <a href="http://eclipse.org/">Eclipse</a> 插件。Eclipse 和 PyDev 都是跨平台而且开源的。</p>
 <p>在商业方面，可以用 ActiveState 公司的 <a href="http://www.activestate.com/komodo/">Komodo IDE</a> 。使用它需要购买单用户授权，但是学生党可以打个折，还能下载免费的限时试用版本。</p>
 <p>我用 Python 编程已经九年了，我用 <a href="http://www.gnu.org/software/emacs/">GNU Emacs</a> 编辑我的 Python 程序然后在 Python Shell 命令行中调试它们。没有什么开发 Python 的方式是正确或者错误的。你要找到一个适合你的方式。</p>
+]]></content>
+      <tags>
+        <tag>Python 之路</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Dive Into Python 3 翻译 第二章</title>
+    <url>/posts/dive-into-python-3-fan-yi-di-er-zhang/</url>
+    <content><![CDATA[<h3 id="第二章-基本数据类型"><a href="#第二章-基本数据类型" class="headerlink" title="第二章 - 基本数据类型"></a>第二章 - 基本数据类型</h3><hr>
+<p><em>“惊奇是一切哲学的开端，探究是它的过程，无知是它的结果”</em></p>
+<p><em>- Michel de Montaigne</em></p>
+<a id="more"></a>
+
+<h4 id="2-1-深入"><a href="#2-1-深入" class="headerlink" title="2.1. 深入"></a>2.1. 深入</h4><p>数据类型。先把你的第一个 Python 程序放在一边，让我们来聊聊数据类型。在 Python 中，每一个值都有自己的数据类型，但是你不必声明变量的数据类型。这怎么做到的？基于每个变量的原始任务，Python 指明它是什么类型并且在内部一直追踪。</p>
+<p>Python 有很多基本数据类型。以下是其中一些重要的。</p>
+<ol>
+<li> <strong>Booleans</strong> (布尔) 要么是 True（真），要么是 False（假）。</li>
+<li><strong>Numbers</strong> （数字）可以是整数（1 和 2），浮点数（1.1 和 1.2），分数（1/2 和 2/3），乃至复数。</li>
+<li><strong>String</strong> （字符串）是 Unicode 字符的序列，比如说一个 HTML 文档。</li>
+<li><strong>Bytes</strong> （字节）和 <strong>byte arrays</strong> （字节数组），比如说一个 JPEG 图像文件。</li>
+<li><strong>Lists</strong> （列表）是值的有序序列。</li>
+<li><strong>Tuples</strong> （元组）是值的有序且不可修改序列。</li>
+<li><strong>Sets</strong> （集合）是无序的值的袋子。</li>
+<li><strong>Dictionaries</strong> （字典）是无序的键值对的袋子。</li>
+</ol>
+<p>当然，在 Python 里还有更多的数据类型。Python 中的每一个东西都是对象，所以像 <code>module</code>, <code>function</code>, <code>class</code>, <code>method</code>, 甚至是 <code>compiled code</code> 这些也都是类型。你已经见过他们中的一些了：modules 的 names，functions 的 docstring，等等。</p>
+]]></content>
+      <tags>
+        <tag>Python 之路</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Dive Into Python 3 翻译 负一章</title>
+    <url>/posts/dive-into-python-3-fan-yi-fu-yi-zhang/</url>
+    <content><![CDATA[<h2 id="负一章-深入-Python-3-中有什么新内容"><a href="#负一章-深入-Python-3-中有什么新内容" class="headerlink" title="负一章 - 深入 Python 3 中有什么新内容"></a>负一章 - 深入 Python 3 中有什么新内容</h2><hr>
+<p><em>“这不正是我们进来的地方吗？”</em></p>
+<p><em>- Pink · Floyd, The Wall</em></p>
+<a id="more"></a>
+
+
+<h4 id="1-1-又被称为-“THE-MINUS-LEVEL”"><a href="#1-1-又被称为-“THE-MINUS-LEVEL”" class="headerlink" title="-1.1 又被称为 “THE MINUS LEVEL”"></a>-1.1 又被称为 “THE MINUS LEVEL”</h4><p>你已经是一个 Python 程序员了吗？你读过原版的 《<a href="http://diveintopython.org/">深入 Python</a>》了吗？你买纸质书了吗？（如果买了，谢谢你！）你准备好冒险进入 Python 3 了吗？如果都做到了，请接着读。（如果没有，你最好从头开始）</p>
+<p>伴随着 Python 3 一起来的还有一个被叫做 2to3 的脚本。学习它，爱上它，使用它。《用 2to3 移植代码到 Python 3》是一个 2to3 工具可以自动修复的所有事情的参考书。由于许多改变都是语法上的，所以先了解这些在 Python 3 中的语法变化真的是一个好的开始。</p>
+<p>案例学习：” 把 Chardet 移植到 Python 3 “ 记录了在我的努力下（最终成功了）把一个不平常的库从 Python 2 移植到 Python 3。它可能对你有帮助，也可能没有。由于你需要先理解这个库，才能理解它为什么中断了和我怎么修复了它，因此这个学习曲线是相当陡峭。许多损坏都围绕着 Strings，说起这个…</p>
+<p>Strings，吁，从哪说起呢，Python 2 有 “Strings” 和 “Unicode (统一码) Strings”。Python 3 中有 “Bytes” 和 “Strings”。这就是说，现在所有的 Strings 都是 Unicode Strings ，而且如果你想要处理一堆 bytes，你可以使用新的 bytes 类型，Python 3 永远不会在 Strings 和 bytes 之间进行隐式转换，所以如果你不确定在哪些时候使用哪种类型，你的代码肯定会中断。想要了解更多的细节可以阅读 the Strings Chapter。</p>
+<p>在这本书中，Bytes 和 Strings 的比较将会反复出现。</p>
+<ul>
+<li><p>  在《文件》(Files) 中，你会学习” 二进制” 和” 文本” 这两种读取文件的模式之间的不同之处，以文本模式读取（写入也是！）文件要求一个 encoding 参数，一些文本文件的方法按照字符计数，但是其他的方法却按照字节计数。如果你的代码中假定一个字符等于一个字节，当遇到多字节字符的时候就会中断。</p>
+</li>
+<li><p>  在《HTTP 网页服务》(HTTP Web Services) 中，httplib 2 模块通过 HTTP 接受 headers 和 data。HTTP headers 以 strings 类型返回，而 HTTP body 以 bytes 类型返回。</p>
+</li>
+<li><p>  在《可序列化 Python 类》(Serializing Python Objects) 中，你将会学习到为什么 pickle 模块这个在 Python 3 中定义的新的数据格式会不与 Python 2 向后兼容（提示：因为 bytes 和 strings）。此外，Python 3 还支持可序列化类与 JSON 之间相互转换，尽管 JSON 都不是 bytes 类型。我将会给你展示这是怎么做到的。</p>
+</li>
+<li><p>在案例学习：把 chardet 移植到 Python 3 中，到处都是 bytes 和 strings。</p>
+<p>即使你不关心 Unicode（但是你会关心的），你也会想读读 Python 3 中的字符串格式 (string formatting in Python 3)，它和 Python 2 中的完全不同。</p>
+<p>在 Python 3 中到处都是迭代器 (Iterators)，我现在比五年前写《深入 Python》的时候能更好的理解它们了，你也要理解它们，因为很多之前在 Python 2 中返回列表 (lists) 的函数，现在变成返回迭代器了。你最少也得读一读迭代器这章的后半部分和高级迭代器这章的后半部分。</p>
+</li>
+</ul>
+<p>应广大程序猿的要求，我已经在附录上增加了《特殊方法名称》这一部分，这有点像 <a href="http://www.python.org/doc/3.1/reference/datamodel.html#special-method-names">Python 文档的《数据模型 (data model) 》</a>这章，但是更加鬼魅。</p>
+<p> 当我写《深入 Python》的时候，所有能获取到的 XML 库都有问题。后来 Fredrik Lundh 编写了 <a href="http://effbot.org/zone/element-index.htm">ElementTree</a> ，这些就都变好了。Python 领域的偶像们很明智地 <a href="http://docs.python.org/3.1/library/xml.etree.elementtree.html">把 ElementTree 纳入到标准库中</a> ，现在也形成了我新写的 XML 那章的基础。老的对 XML 进行解析的方法仍然能用，但是你最好别用，因为它们真的都很糟糕。</p>
+<p> 在 Python 中另外的新东西，不在语言而在社区，出现了像 <a href="http://pypi.python.org/">Python 软件包大全 (The Python Package Index, PyPI)</a> 这样的代码仓库， Python 带来了把你的代码用标准格式打包然后发行到 PyPI 上的实用工具。想要了解细节请阅读打包 Python 库 (Packaging Python Libraries) 这一章。</p>
 ]]></content>
       <tags>
         <tag>Python 之路</tag>

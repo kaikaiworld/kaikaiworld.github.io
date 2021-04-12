@@ -16,6 +16,32 @@
       </tags>
   </entry>
   <entry>
+    <title>Dive Into Python 3 翻译 第二章</title>
+    <url>/posts/dive-into-python-3-fan-yi-di-er-zhang/</url>
+    <content><![CDATA[<h3 id="第二章-基本数据类型"><a href="#第二章-基本数据类型" class="headerlink" title="第二章 - 基本数据类型"></a>第二章 - 基本数据类型</h3><hr>
+<p><em>“惊奇是一切哲学的开端，探究是它的过程，无知是它的结果”</em></p>
+<p><em>- Michel de Montaigne</em></p>
+<a id="more"></a>
+
+<h4 id="2-1-深入"><a href="#2-1-深入" class="headerlink" title="2.1. 深入"></a>2.1. 深入</h4><p>数据类型。先把你的第一个 Python 程序放在一边，让我们来聊聊数据类型。在 Python 中，每一个值都有自己的数据类型，但是你不必声明变量的数据类型。这怎么做到的？基于每个变量的原始任务，Python 指明它是什么类型并且在内部一直追踪。</p>
+<p>Python 有很多基本数据类型。以下是其中一些重要的。</p>
+<ol>
+<li> <strong>Booleans</strong> (布尔) 要么是 True（真），要么是 False（假）。</li>
+<li><strong>Numbers</strong> （数字）可以是整数（1 和 2），浮点数（1.1 和 1.2），分数（1/2 和 2/3），乃至复数。</li>
+<li><strong>String</strong> （字符串）是 Unicode 字符的序列，比如说一个 HTML 文档。</li>
+<li><strong>Bytes</strong> （字节）和 <strong>byte arrays</strong> （字节数组），比如说一个 JPEG 图像文件。</li>
+<li><strong>Lists</strong> （列表）是值的有序序列。</li>
+<li><strong>Tuples</strong> （元组）是值的有序且不可修改序列。</li>
+<li><strong>Sets</strong> （集合）是无序的值的袋子。</li>
+<li><strong>Dictionaries</strong> （字典）是无序的键值对的袋子。</li>
+</ol>
+<p>当然，在 Python 里还有更多的数据类型。Python 中的每一个东西都是对象，所以像 <code>module</code>, <code>function</code>, <code>class</code>, <code>method</code>, 甚至是 <code>compiled code</code> 这些也都是类型。你已经见过他们中的一些了：modules 的 names，functions 的 docstring，等等。</p>
+]]></content>
+      <tags>
+        <tag>Python 之路</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Dive Into Python 3 翻译 第零章</title>
     <url>/posts/dive-into-python-3-fan-yi-di-ling-zhang/</url>
     <content><![CDATA[<h3 id="第零章-Python-的安装"><a href="#第零章-Python-的安装" class="headerlink" title="第零章 - Python 的安装"></a>第零章 - Python 的安装</h3><hr>
@@ -74,32 +100,6 @@
 <p>你可能还想要看看 <a href="http://wiki.python.org/moin/IntegratedDevelopmentEnvironments">Python 相关的集成开发环境的清单</a> ，虽然他们中支持 Python 3 的不多。其中一个就是 <a href="http://pydev.sourceforge.net/">PyDev</a> ，一个能使 Eclipse 变成全功能 Python 集成开发环境的 <a href="http://eclipse.org/">Eclipse</a> 插件。Eclipse 和 PyDev 都是跨平台而且开源的。</p>
 <p>在商业方面，可以用 ActiveState 公司的 <a href="http://www.activestate.com/komodo/">Komodo IDE</a> 。使用它需要购买单用户授权，但是学生党可以打个折，还能下载免费的限时试用版本。</p>
 <p>我用 Python 编程已经九年了，我用 <a href="http://www.gnu.org/software/emacs/">GNU Emacs</a> 编辑我的 Python 程序然后在 Python Shell 命令行中调试它们。没有什么开发 Python 的方式是正确或者错误的。你要找到一个适合你的方式。</p>
-]]></content>
-      <tags>
-        <tag>Python 之路</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Dive Into Python 3 翻译 第二章</title>
-    <url>/posts/dive-into-python-3-fan-yi-di-er-zhang/</url>
-    <content><![CDATA[<h3 id="第二章-基本数据类型"><a href="#第二章-基本数据类型" class="headerlink" title="第二章 - 基本数据类型"></a>第二章 - 基本数据类型</h3><hr>
-<p><em>“惊奇是一切哲学的开端，探究是它的过程，无知是它的结果”</em></p>
-<p><em>- Michel de Montaigne</em></p>
-<a id="more"></a>
-
-<h4 id="2-1-深入"><a href="#2-1-深入" class="headerlink" title="2.1. 深入"></a>2.1. 深入</h4><p>数据类型。先把你的第一个 Python 程序放在一边，让我们来聊聊数据类型。在 Python 中，每一个值都有自己的数据类型，但是你不必声明变量的数据类型。这怎么做到的？基于每个变量的原始任务，Python 指明它是什么类型并且在内部一直追踪。</p>
-<p>Python 有很多基本数据类型。以下是其中一些重要的。</p>
-<ol>
-<li> <strong>Booleans</strong> (布尔) 要么是 True（真），要么是 False（假）。</li>
-<li><strong>Numbers</strong> （数字）可以是整数（1 和 2），浮点数（1.1 和 1.2），分数（1/2 和 2/3），乃至复数。</li>
-<li><strong>String</strong> （字符串）是 Unicode 字符的序列，比如说一个 HTML 文档。</li>
-<li><strong>Bytes</strong> （字节）和 <strong>byte arrays</strong> （字节数组），比如说一个 JPEG 图像文件。</li>
-<li><strong>Lists</strong> （列表）是值的有序序列。</li>
-<li><strong>Tuples</strong> （元组）是值的有序且不可修改序列。</li>
-<li><strong>Sets</strong> （集合）是无序的值的袋子。</li>
-<li><strong>Dictionaries</strong> （字典）是无序的键值对的袋子。</li>
-</ol>
-<p>当然，在 Python 里还有更多的数据类型。Python 中的每一个东西都是对象，所以像 <code>module</code>, <code>function</code>, <code>class</code>, <code>method</code>, 甚至是 <code>compiled code</code> 这些也都是类型。你已经见过他们中的一些了：modules 的 names，functions 的 docstring，等等。</p>
 ]]></content>
       <tags>
         <tag>Python 之路</tag>

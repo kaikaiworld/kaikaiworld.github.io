@@ -2,51 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-di-er-zhang/</loc>
-    
-    <lastmod>2020-12-03</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-mu-lu/</loc>
     
-    <lastmod>2020-12-03</lastmod>
+    <lastmod>2020-12-20</lastmod>
     
   </url>
   
   <url>
-    <loc>http://hexo.kaikai.world/404</loc>
+    <loc>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-di-er-zhang/</loc>
     
-    <lastmod>2020-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-di-yi-zhang/</loc>
-    
-    <lastmod>2020-11-14</lastmod>
+    <lastmod>2020-12-20</lastmod>
     
   </url>
   
   <url>
     <loc>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-di-ling-zhang/</loc>
     
-    <lastmod>2020-11-14</lastmod>
+    <lastmod>2020-12-20</lastmod>
     
   </url>
   
   <url>
     <loc>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-fu-yi-zhang/</loc>
     
-    <lastmod>2020-11-14</lastmod>
+    <lastmod>2020-12-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://hexo.kaikai.world/posts/dive-into-python-3-fan-yi-di-yi-zhang/</loc>
+    
+    <lastmod>2020-12-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://hexo.kaikai.world/404</loc>
+    
+    <lastmod>2020-12-20</lastmod>
     
   </url>
   
 
   <url>
     <loc>http://hexo.kaikai.world/</loc>
-    <lastmod>2020-12-12</lastmod>
+    <lastmod>2021-04-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -54,7 +54,7 @@
   
   <url>
     <loc>http://hexo.kaikai.world/tags/Python-%E4%B9%8B%E8%B7%AF/</loc>
-    <lastmod>2020-12-12</lastmod>
+    <lastmod>2021-04-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
